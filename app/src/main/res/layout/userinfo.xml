@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+     android:background="@drawable/edit"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:id="@+id/color"
+        android:text="CarValet"
+        android:shadowRadius="20"
+        android:shadowColor="#ab2828"
+        android:shadowDx="0"
+        android:shadowDy="0"
+
+        android:fontFamily="serif"
+        android:textColor="#5c3cb9"
+        android:textSize="50dp"
+        android:textStyle="bold"
+
+        android:gravity="center_horizontal"/>
+
+    <GridView
+        android:numColumns="2"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="60dp"
+        android:columnWidth="100dp"
+        android:layout_marginBottom="10dp"
+
+        android:stretchMode="columnWidth"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/grid"
+        />
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/Fragmentcontainer">
+
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "812390675208",
+    "firebase_url": "https://carvalet-27482.firebaseio.com",
+    "project_id": "carvalet-27482",
+    "storage_bucket": "carvalet-27482.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:812390675208:android:a00c44c1a9fc30be",
+        "android_client_info": {
+          "package_name": "com.example.jugjeetsingh.carvalet2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "812390675208-9nbeo9qi75saog610dv84sfe67t74u6v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJctQSE2rPsmHVx8On7UQlNK-RfjBhibU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

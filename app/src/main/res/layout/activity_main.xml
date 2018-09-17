@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/cr"
+    android:layout_height="match_parent"
+    >
+
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/sign_in_button"
+        android:layout_marginTop="33dp"
+        android:textColorHint="#ffffff"
+        android:drawableLeft="@drawable/ic_action_name"
+        android:ems="10"
+        android:hint="EMAIL-ID"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/passwrod"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+
+        android:layout_alignStart="@+id/username"
+        android:layout_alignTop="@+id/username"
+        android:layout_marginTop="107dp"
+        android:drawableLeft="@drawable/ic_action_lock"
+        android:ems="10"
+        android:hint="PASSWORD"
+        android:inputType="textPassword"
+        android:textColorHint="#ffffff"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="133dp" />
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/sign_in_button"
+        android:layout_width="318dp"
+        android:layout_height="41dp"
+
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="60dp"
+        app:layout_constraintVertical_bias="0.978"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="33dp">
+
+    </com.google.android.gms.common.SignInButton>
+
+    <!--<com.andexert.library.RippleView-->
+        <!--android:id="@+id/more"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_margin="5dp"-->
+        <!--rv_centered="true">-->
+
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="114dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="300dp"
+        android:layout_alignStart="@+id/sign_in_button"
+        android:layout_marginStart="35dp"
+        android:text="Login"
+        app:layout_constraintBottom_toTopOf="@+id/sign_in_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.203"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/passwrod"
+        app:layout_constraintVertical_bias="0.455" />
+
+
+    <!--</com.andexert.library.RippleView>-->
+
+    <!--<com.andexert.library.RippleView-->
+        <!--android:id="@+id/more1"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_margin="5dp"-->
+        <!--rv_centered="true">-->
+
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="114dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="300dp"
+        android:layout_alignStart="@+id/sign_in_button"
+        android:layout_marginStart="200dp"
+        android:text="Signup"
+        app:layout_constraintBottom_toTopOf="@+id/sign_in_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.203"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/passwrod"
+        app:layout_constraintVertical_bias="0.455" />
+
+
+
+    <!--</com.andexert.library.RippleView>-->
+
+</RelativeLayout>
